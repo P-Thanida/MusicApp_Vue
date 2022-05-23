@@ -51,6 +51,11 @@ export default {
           artist: "Only Monday",
           src: require("./assets/s2.mp3"),
         },
+        {
+          title: "ระยะหัวใจ",
+          artist: "FLUKIE",
+          src: require("./assets/s3.mp3"),
+        },
       ],
       player: new Audio(),
     };
@@ -122,7 +127,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 30px;
   background-color: #212121;
   color: #fff;
 }
@@ -134,20 +139,20 @@ main {
   padding: 25px;
 }
 
-.song-title{
-  color: #53565A;
+.song-title {
+  color: #53565a;
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
 }
 
-.song-title span{
+.song-title span {
   font-weight: 400;
   font-style: italic;
 }
 
-.controls{
+.controls {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,31 +167,33 @@ button {
   cursor: pointer;
 }
 
-.play, .pause {
+.play,
+.pause {
   font-weight: 700;
   font-size: 20px;
   padding: 15px 25px;
   margin: 0px 15px;
   border-radius: 8px;
-  color: #FFF;
+  color: #fff;
   background-color: #cc2e5d;
 }
 
-.next, .prev {
+.next,
+.prev {
   font-size: 16px;
   font-weight: 700;
   padding: 10px 20px;
   margin: 0px 15px;
   border-radius: 6px;
   color: #fff;
-  background-color: #FF5858;
+  background-color: #ff5858;
 }
 
 .playlist {
   padding: 0px 30px;
 }
 
-.playlist h3{
+.playlist h3 {
   color: #212121;
   font-size: 28px;
   font-weight: 400;
@@ -194,17 +201,16 @@ button {
   text-align: center;
 }
 
-.playlist .song{
+.playlist .song {
   display: block;
   width: 100%;
-  padding:  15px;
+  padding: 12px;
   font-weight: 700;
   cursor: pointer;
 }
 
-.playlist .song:hover{
-  color: #FF5858;
-
+.playlist .song:hover {
+  color: #ff5858;
 }
 
 .playlist .song.playing {
