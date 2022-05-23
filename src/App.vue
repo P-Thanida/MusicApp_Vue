@@ -127,7 +127,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 25px;
   background-color: #e9311a;
   color: #fff;
 }
@@ -202,6 +202,7 @@ button {
 }
 
 .playlist .song {
+  border-radius: 6px;
   display: block;
   width: 100%;
   padding: 12px;
