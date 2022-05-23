@@ -128,7 +128,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  background-color: #212121;
+  background-color: #e9311a;
   color: #fff;
 }
 
@@ -175,7 +175,7 @@ button {
   margin: 0px 15px;
   border-radius: 8px;
   color: #fff;
-  background-color: #cc2e5d;
+  background-color: #e9311a;
 }
 
 .next,
@@ -186,7 +186,7 @@ button {
   margin: 0px 15px;
   border-radius: 6px;
   color: #fff;
-  background-color: #ff5858;
+  background-color: #F9AC67;
 }
 
 .playlist {
@@ -210,11 +210,11 @@ button {
 }
 
 .playlist .song:hover {
-  color: #ff5858;
+  color: #F9AC67;
 }
 
 .playlist .song.playing {
   color: #fff;
-  background-image: linear-gradient(to right, #cc2e5d, #ff5858);
+  background-image: linear-gradient(to right, #e9311a, #F9AC67);
 }
 </style>
