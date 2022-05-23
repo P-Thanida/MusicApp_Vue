@@ -10,10 +10,10 @@
         </h2>
         <span>
           <div class="controls">
-            <button class="prev" @click="prev">Prev</button>
-            <button class="play" v-if="!isPlaying" @click="play">Play</button>
-            <button class="pause" v-else @click="pause">Pause</button>
-            <button class="next" @click="next">Next</button>
+            <button class="prev" @click="prev">||◁</button>
+            <button class="play" v-if="!isPlaying" @click="play">▶</button>
+            <button class="pause" v-else @click="pause">❚❚</button>
+            <button class="next" @click="next">▷||</button>
           </div>
         </span>
       </section>
